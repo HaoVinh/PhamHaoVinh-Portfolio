@@ -1,0 +1,120 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+.header-container {
+  padding: 1rem;
+}
+
+.avatar {
+  width: 220px;
+  height: 250px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+header {
+    width: 270px;
+    float: left;
+    position: fixed;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 5px 0;
+}
+header .header-container {
+  text-align: center;
+  margin: auto;
+}
+
+header .header-container img {
+  display: block;
+  margin: 0 auto;
+}
+
+header .header-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+header .header-container ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hover effect for links */
+a {
+  position: relative;
+  text-decoration: none;
+  color: #1404fc;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for list items */
+ul li {
+  position: relative;
+  list-style-type: none;
+  padding: 8px 0;
+  transition: transform 0.3s ease;
+}
+
+ul li:hover {
+  transform: translateX(5px); /* Dịch chuyển 5px sang phải khi hover */
+}
+
+/* Hover effect for images in projects section */
+.projects img {
+  transition: opacity 0.3s ease;
+}
+
+.projects img:hover {
+  opacity: 0.8; /* Độ mờ mong muốn khi hover */
+}
+
+main {
+  width: 500px;
+  float: right;
+  padding-bottom: 50px;
+}
+.wrapper{
+  width: 860px;
+  margin: 0 auto;
+}
+
+.projects, .contact {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #1404fc;
+}
+.projects{
+    padding-bottom: 50px;
+}
+.projects img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 15px;
+}
+
+footer {
+  color: #000000;
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+}
